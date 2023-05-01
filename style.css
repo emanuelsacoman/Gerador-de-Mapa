@@ -2,7 +2,6 @@ body{
     background-color: #252525;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .all{
@@ -10,8 +9,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    position: absolute;
+    bottom: 15px;
+    gap: 150px;
+}
 
+.up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
 }
 
 #mapa {
@@ -50,4 +66,21 @@ td {
 
 #lago {
     background-color: green;
+}
+
+.container img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: filter .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
+.container img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
 }
