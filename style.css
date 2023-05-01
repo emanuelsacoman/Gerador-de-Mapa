@@ -1,0 +1,53 @@
+body{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#mapa {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-spacing: 0px;
+}
+
+img{
+    width: auto;
+    height: 80px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 0px solid green;
+    text-align: center;
+}
+
+#casa {
+    background-color: green;
+}
+
+#grama {
+    background-color: green;
+}
+
+#arvore {
+    background-color: green;
+}
+
+#lago {
+    background-color: green;
+}
